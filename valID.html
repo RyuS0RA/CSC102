@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--Created By Michael Dziendziel for CSC102-->
+<html lang="en">
+    <script src="valID.js"></script>
+    <link href="valID.css" rel="stylesheet" type="text/css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Verification</title>
+
+</head>
+<body>
+    <h1><img src="UATspaceLogo-2.jpg"><br> UAT Space Program User Verification</h1>
+    <br>
+    <!--This is a message to show current progress of the user login-->
+    <p id="loginStatus" class="loginID">Status Pending...</p>
+    <br>
+    <!-- This is the area where the user inputs there information to login-->
+    <form id="credSubmit" onsubmit="return false">
+        First Name:  <input type="text" id="firstName"/> <br>
+        Last Name:  <input type="text" id="lastName"/> <br>
+        Badge Number: <input type="number" id="badgeNum"/> <br>
+        <input type="submit" onclick="checkCreds();" />
+    </form>
+    <!--THis is the sound source are it is set to autoplay but that function is only available in Mozilla Firefox all other browsers have disabled this.-->
+    <audio controls autoplay="true">
+        <source src="ThatSpaceAtmosphere.m4a" type="audio/mp3">
+    </audio>
+
+</body>
+</html>
