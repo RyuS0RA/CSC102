@@ -10,3 +10,7 @@ function Stop() {
     document.getElementById("timer").innerHTML="Phew... what a relief"
 
 }
+function Back()
+{
+    location.replace("MJDindex.html")
+}
