@@ -15,3 +15,7 @@ function checkCreds() {
         location.replace("StartStop.html")
     }
 }
+function Back()
+{
+    location.replace("MJDindex.html")
+}
