@@ -25,3 +25,8 @@ function StartTheCountdown()
         }
     }
 }
+//this is the function for the Back to the index page button
+function Back()
+{
+    location.replace("MJDindex.html")
+}
